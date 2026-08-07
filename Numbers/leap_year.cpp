@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter the year: ";
+    cin>>n;
+
+    if(n%400==0)
+    {
+        cout<<"It is a leap year";
+    }
+    else if(n%4==0&& n%400==0)
+    {
+        cout<<"It is also a leap year";
+    }
+    else{
+        cout<<"Not a leap year";
+    }
+}
+
