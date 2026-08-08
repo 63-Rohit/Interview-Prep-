@@ -12,4 +12,27 @@ int main()
     {
         cin>>arr[i];
     }
+
+    int key;
+cout<<"Enter the key: ";
+cin>>key;
+    bool found =false;
+    for(int i=0;i<n;i++)
+    {
+        if(arr[i]==key)
+        {
+            cout<<"element found at index"<<i;
+            found=true;
+            break;
+        }
+    }
+
+    // if(!found)
+      if(found==false)
+      { 
+          cout<<"Element not found ";
+        }
+
+    return 0;
+
 }
