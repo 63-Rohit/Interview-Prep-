@@ -10,7 +10,7 @@ int main()
     {
         cout<<"It is a leap year";
     }
-    else if(n%4==0&& n%400==0)
+    else if(n%4==0 && n%100!=0)
     {
         cout<<"It is also a leap year";
     }
