@@ -1,17 +1,19 @@
-//Print all odd numbers from 1 to n
+//find sum of first N natural numbers
 
 #include<iostream>
 using namespace std;
 int main()
 {
     int n;
+
     cout<<"Enter n: ";
     cin>>n;
 
-    for(int i=1;i<=n;i+=2)
+    int sum=0;
+    for(int i=1;i<=n;i++)
     {
-        cout<<i<<" ";
+        sum=sum+i;
     }
 
-    return 0;
+    cout<<sum;
 }
