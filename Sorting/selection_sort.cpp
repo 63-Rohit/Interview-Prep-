@@ -1,4 +1,4 @@
-//Bubble sort is a sorting algo in which adjacent elements are compared and swapped if they are in wrong order and after every pass the clargest eleemnt move to its correct position.
+//Bubble sort is a sorting algo in which adjacent elements are compared and swapped if they are in wrong order and after every pass the largest eleemnt move to its correct position.
 
 #include<iostream>
 using namespace std;
